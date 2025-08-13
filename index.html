@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Aarif - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.4;
+            color: #333;
+            background: #fff;
+            font-size: 11px;
+        }
+
+        .resume {
+            max-width: 8.5in;
+            height: 11in;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+            padding: 30px;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        .left-column {
+            background: #f8f9fa;
+            padding: 25px 20px;
+            border-radius: 8px;
+        }
+
+        .right-column {
+            padding: 0 15px;
+        }
+
+        .header {
+            grid-column: 1 / -1;
+            text-align: center;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #0066cc;
+            margin-bottom: 5px;
+        }
+
+        .title {
+            font-size: 13px;
+            color: #666;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+
+        .contact-info {
+            font-size: 10px;
+            color: #555;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 14px;
+            font-weight: bold;
+            color: #0066cc;
+            margin-bottom: 10px;
+            padding-bottom: 3px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .about {
+            font-size: 11px;
+            line-height: 1.5;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        .experience-item, .education-item, .project-item {
+            margin-bottom: 15px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .experience-item:last-child, .education-item:last-child, .project-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+
+        .job-title {
+            font-weight: bold;
+            font-size: 12px;
+            color: #333;
+        }
+
+        .company {
+            font-size: 11px;
+            color: #0066cc;
+            margin-bottom: 2px;
+        }
+
+        .duration {
+            font-size: 10px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .description {
+            font-size: 10px;
+            line-height: 1.4;
+            text-align: justify;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        .skill-tag {
+            background: #0066cc;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 9px;
+            font-weight: 500;
+        }
+
+        .languages-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            font-size: 10px;
+        }
+
+        .language-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .proficiency {
+            font-size: 8px;
+            color: #666;
+        }
+
+        .certification {
+            margin-bottom: 8px;
+            font-size: 10px;
+        }
+
+        .cert-name {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .cert-issuer {
+            color: #666;
+            font-size: 9px;
+        }
+
+        .grade {
+            font-weight: bold;
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <div class="header">
+            <div class="name">MOHAMMED AARIF</div>
+            <div class="title">Final-Year Chemical Engineering Student | Aspiring Data Analyst</div>
+            <div class="contact-info">
+                Greater Visakhapatnam Area, Andhra Pradesh, India<br>
+                LinkedIn: linkedin.com/in/mohammed-aarif | 472+ Connections
+            </div>
+        </div>
+
+        <div class="left-column">
+            <div class="section">
+                <div class="section-title">SKILLS</div>
+                <div class="skills-list">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Microsoft Excel</span>
+                    <span class="skill-tag">Microsoft PowerPoint</span>
+                    <span class="skill-tag">Microsoft Word</span>
+                    <span class="skill-tag">COMSOL</span>
+                    <span class="skill-tag">Minitab</span>
+                    <span class="skill-tag">Origin Software</span>
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">Problem Solving</span>
+                    <span class="skill-tag">Research Skills</span>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">LANGUAGES</div>
+                <div class="languages-grid">
+                    <div class="language-item">
+                        <span>English</span>
+                        <span class="proficiency">Professional</span>
+                    </div>
+                    <div class="language-item">
+                        <span>Hindi</span>
+                        <span class="proficiency">Full Professional</span>
+                    </div>
+                    <div class="language-item">
+                        <span>Telugu</span>
+                        <span class="proficiency">Professional</span>
+                    </div>
+                    <div class="language-item">
+                        <span>Urdu</span>
+                        <span class="proficiency">Professional</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">CERTIFICATIONS</div>
+                <div class="certification">
+                    <div class="cert-name">Python (Basic) Certificate</div>
+                    <div class="cert-issuer">HackerRank • July 2025</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">EDUCATION</div>
+                
+                <div class="education-item">
+                    <div class="job-title">Bachelor of Technology</div>
+                    <div class="company">Chemical Engineering</div>
+                    <div class="company">Gayatri Vidya Parishad College of Engineering (Autonomous)</div>
+                    <div class="duration">Aug 2022 - May 2026</div>
+                    <div class="duration"><span class="grade">CGPA: 7.45</span></div>
+                </div>
+
+                <div class="education-item">
+                    <div class="job-title">Diploma</div>
+                    <div class="company">Petrochemical Engineering</div>
+                    <div class="company">Government Institute of Chemical Engineering</div>
+                    <div class="duration">Jun 2019 - Nov 2022</div>
+                    <div class="duration"><span class="grade">75.15%</span></div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">ACTIVITIES</div>
+                <div style="font-size: 10px; line-height: 1.4;">
+                    • Minors in Computer Science Engineering<br>
+                    • Rotary Club Member<br>
+                    • Badminton Player<br>
+                    • Micro Reactors Project Research
+                </div>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <div class="section">
+                <div class="section-title">PROFESSIONAL SUMMARY</div>
+                <div class="about">
+                    Final-year Chemical Engineering student transitioning into Data Analytics with a strong foundation in Python, SQL, and data visualization tools. Engineering background has sharpened analytical thinking and problem-solving skills, now applied to extracting insights from data. Currently building expertise through hands-on projects and continuous learning, passionate about transforming raw information into actionable business decisions.
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">EXPERIENCE</div>
+                
+                <div class="experience-item">
+                    <div class="job-title">Project Intern</div>
+                    <div class="company">Indian Institute of Petroleum and Energy (IIPE)</div>
+                    <div class="duration">April 2025 - June 2025 • Visakhapatnam, Andhra Pradesh</div>
+                    <div class="description">
+                        Worked on "Microwave-Assisted Pyrolysis of Biomass to Produce Bio-Oil" project, gaining hands-on experience in designing and conducting experiments using Design of Experiments (DOE) methodology. Performed FTIR analysis to study bio-oil composition and explored biomass material properties and applications.
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-title">Project Intern</div>
+                    <div class="company">Hindustan Petroleum Corporation Limited</div>
+                    <div class="duration">April 2024 - May 2024 • Visakhapatnam, Andhra Pradesh</div>
+                    <div class="description">
+                        Worked on "Optimization of Gasoline Blending at HPCL Visakh Refinery" project. Analyzed operational data, identified process inefficiencies, and proposed solutions to reduce excess mass consumption and improve fuel yield. Enhanced knowledge of refinery operations and process optimization techniques.
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-title">Apprentice</div>
+                    <div class="company">Coromandel International Limited</div>
+                    <div class="duration">February 2022 - June 2022 • Visakhapatnam, Andhra Pradesh</div>
+                    <div class="description">
+                        Served as lab assistant in Quality Assurance department, gaining practical experience in laboratory operations and quality control processes.
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-title">Apprentice</div>
+                    <div class="company">East India Petroleum (P) Ltd.</div>
+                    <div class="duration">October 2021 - January 2022 • Visakhapatnam, Andhra Pradesh</div>
+                    <div class="description">
+                        Participated in operations and storage management of oils and chemicals, gaining exposure to industrial petroleum operations.
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">KEY PROJECTS</div>
+                
+                <div class="project-item">
+                    <div class="job-title">Microwave Assisted Pyrolysis of Biomass</div>
+                    <div class="duration">April 2025 - June 2025</div>
+                    <div class="description">
+                        Developed bio-oil production process using microwave heating techniques. Applied Design of Experiments methodology, FTIR analysis, and materials characterization to optimize biomass conversion processes.
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="job-title">Optimization of Gasoline Blending</div>
+                    <div class="duration">April 2024 - May 2024</div>
+                    <div class="description">
+                        Theoretical project addressing real-world gasoline blending challenges at HPCL refinery. Developed solutions to increase production efficiency and reduce material waste through process analysis and optimization techniques.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
